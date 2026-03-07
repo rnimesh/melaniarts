@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#E5E7EB"/>
+  <rect x="320" y="230" width="160" height="140" rx="8" fill="#D1D5DB"/>
+  <circle cx="400" cy="280" r="35" fill="#9CA3AF"/>
+  <polygon points="330,350 400,260 470,350" fill="#9CA3AF"/>
+  <polygon points="360,350 430,290 490,350" fill="#6B7280"/>
+  <rect x="370" y="240" width="20" height="20" rx="10" fill="#E5E7EB"/>
+  <text x="400" y="410" font-family="system-ui, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">Image Placeholder</text>
+</svg>
