@@ -58,10 +58,10 @@ export const services: Service[] = [
     description:
       "High-resolution digital printing for any size and any purpose. Whether you need a banner for an event, flyers for a promotion, or posters for your store, we deliver sharp, vibrant prints fast.",
     options: [
-      "Banners (indoor/outdoor)",
-      "Flyers & leaflets",
-      "Posters",
-      "Canvas prints",
+      "Indoor",
+      "Outdoor",
+      "Sticker",
+      "Canvas",
     ],
     image: "/images/IMG_20230904_155743.jpg",
     cta: "Get a Quote",
@@ -142,7 +142,7 @@ export const services: Service[] = [
       "Various sizes available",
       "Quick turnaround",
     ],
-    image: "/images/placeholder.svg",
+    image: "/images/ru.jpeg",
     cta: "Get a Quote",
   },
   {
@@ -207,7 +207,7 @@ export const services: Service[] = [
     description:
       "Celebrate achievement in style. We craft custom awards, trophies, and plaques for schools, sporting events, corporate recognition, and more. Engraving and custom design available.",
     options: ["Acrylic", "Crystal", "Metal", "Timber"],
-    image: "/images/IMG_5554.jpeg",
+    image: "/images/awards.jpeg",
     cta: "Get a Quote",
   },
   {
@@ -274,6 +274,7 @@ export const portfolioItems: PortfolioItem[] = [
   { id: "p9", category: "Rollups", image: "/images/0cfc8ff6-cfd2-43ad-9e30-18eba15a6110.jpeg", caption: "Roll-up stand for exhibition" },
   { id: "p10", category: "Name Boards", image: "/images/1b632432-2c87-4fb6-b569-b3374d88e000.jpeg", caption: "" },
   { id: "p11", category: "Sign Board", image: "/images/1eea383e-b8ca-400d-a9ef-117ef560244d.jpeg", caption: "" },
+  { id: "p35", category: "Name Board", image: "/images/oasis1.jpeg", caption: "" },
   { id: "p12", category: "Number Plates", image: "/images/9f237564-cfbf-494d-a6e2-5158ef33b6f3.jpeg", caption: "" },
   { id: "p14", category: "Stickers", image: "/images/2014-06-28 12.44.13.jpg", caption: "Vehicle Stickers" },
   { id: "p15", category: "Light Boards", image: "/images/20150219_193635.jpg", caption: "LED-lit board" },
@@ -289,6 +290,23 @@ export const portfolioItems: PortfolioItem[] = [
   { id: "p19", category: "Name Boards", image: "/images/IMG_20231011_145000.jpg", caption: "" },
   { id: "p19", category: "Banner", image: "/images/IMG_20231219_160955.jpg", caption: "" },
   { id: "p19", category: "Sign Board", image: "/images/IMG_20231227_163842.jpg", caption: "" },
+  { id: "p20", category: "Sign Board", image: "/images/china sign board.jpeg", caption: "" },
+  { id: "p21", category: "Stickers", image: "/images/dodolboard1.jpeg", caption: "" },
+  { id: "p22", category: "Sign Board", image: "/images/hw1.jpeg", caption: "" },
+  { id: "p23", category: "Key Tags", image: "/images/tags.jpeg", caption: "" },
+  { id: "p24", category: "Name Board", image: "/images/bc.jpeg", caption: "" },
+  { id: "p25", category: "Board", image: "/images/hipg.jpeg", caption: "" },
+  { id: "p26", category: "Vehicle Stickers", image: "/images/dkd.jpeg", caption: "" },
+  { id: "p27", category: "Vehicle Stickers", image: "/images/vs.jpeg", caption: "" },
+  { id: "p28", category: "Light Board", image: "/images/rbh.jpeg", caption: "" },
+  { id: "p29", category: "Banner", image: "/images/cb1.jpeg", caption: "" },
+  { id: "p30", category: "Board", image: "/images/bp1.jpeg", caption: "" },
+  { id: "p31", category: "Awards", image: "/images/awards.jpeg", caption: "" },
+  { id: "p32", category: "Board", image: "/images/dk2.jpeg", caption: "" },
+  { id: "p33", category: "Light Board", image: "/images/lb.jpeg", caption: "" },
+  { id: "p34", category: "Banner", image: "/images/np.jpeg", caption: "" },
+  { id: "p36", category: "Name Board", image: "/images/bp2.jpeg", caption: "" },
+  { id: "p37", category: "Rollups", image: "/images/ru.jpeg", caption: "" },
 ];
 
 export const testimonials: Testimonial[] = [
