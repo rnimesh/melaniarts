@@ -4,12 +4,13 @@ import ServicesSnapshot from "@/components/home/ServicesSnapshot";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import WorksPreview from "@/components/home/WorksPreview";
 import ContactStrip from "@/components/home/ContactStrip";
+import { createPageMetadata, siteConfig } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = createPageMetadata({
   title: "MelaniArts | Printing & Signage in Hambantota & Colombo",
-  description:
-    "MelaniArts offers premium printing and signage services in Sri Lanka — name boards, number plates, vehicle stickers, digital printing, mug printing, and awards.",
-};
+  description: siteConfig.description,
+  path: "/",
+});
 
 export default function HomePage() {
   return (

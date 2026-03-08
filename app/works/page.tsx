@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import PortfolioGrid from "@/components/works/PortfolioGrid";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Our Works | MelaniArts Printing Portfolio",
+export const metadata: Metadata = createPageMetadata({
+  title: "Our Works",
   description:
     "Browse MelaniArts' portfolio — digital printing, name boards, light boards, stickers, rollups, feather flags, graphic design, business cards, awards, mug printing, and more across Sri Lanka.",
-};
+  path: "/works",
+});
 
 export default function WorksPage() {
   return (

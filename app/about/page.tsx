@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import OurStory from "@/components/about/OurStory";
 import MissionValues from "@/components/about/MissionValues";
 import Locations from "@/components/about/Locations";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About MelaniArts | Our Story & Mission",
+export const metadata: Metadata = createPageMetadata({
+  title: "About Us",
   description:
     "Learn about MelaniArts — our story, mission, values, and where to find us in Hambantota and Colombo, Sri Lanka.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

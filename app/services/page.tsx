@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import ServiceCard from "@/components/services/ServiceCard";
 import { services } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Our Services | MelaniArts Sri Lanka",
+export const metadata: Metadata = createPageMetadata({
+  title: "Services",
   description:
     "Explore MelaniArts' full range of printing and signage services — digital printing, name boards, light boards, stickers, rollups, feather flags, graphic design, business cards, awards, mug printing, and more.",
-};
+  path: "/services",
+});
 
 export default function ServicesPage() {
   return (

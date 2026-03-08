@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Phone, Mail, Clock, MapPin, ExternalLink } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Contact MelaniArts | Call or WhatsApp Us",
+export const metadata: Metadata = createPageMetadata({
+  title: "Contact",
   description:
     "Get in touch with MelaniArts — call, WhatsApp, or email us for custom printing and signage quotes in Hambantota and Colombo.",
-};
+  path: "/contact",
+});
 
 const WA_NUMBER = "94717402537";
 const MAP_URL = "https://maps.app.goo.gl/55sUNusmwbCiLa7o7";
