@@ -31,14 +31,18 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1DLXXPZRNt/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-mid hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/melaniarts.digital/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-mid hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
