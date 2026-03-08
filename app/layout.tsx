@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     "mug printing",
     "awards",
     "MelaniArts",
+    "Melani Arts",
+    "Melani Arts Digital",
+    "Digital Printing Sri Lanka"
   ],
   alternates: {
     canonical: "/",
