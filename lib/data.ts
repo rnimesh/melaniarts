@@ -267,7 +267,7 @@ export const portfolioItems: PortfolioItem[] = [
   { id: "p1", category: "Name Boards", image: "/images/20201031_143915s.jpg", caption: "Name Boards" },
   { id: "p2", category: "Sticker", image: "/images/20201029_135929ss.jpg", caption: "Vehicle Stickers" },
   { id: "p3", category: "Mug Printing", image: "/images/IMG_20231110_162505s.jpg", caption: "Custom Mug Printing" },
-  { id: "p7", category: "Number Plates", image: "/images/05ea9e21-7a51-48fd-95aa-d71094302ae8.jpeg", caption: "Number Plates" },
+  { id: "p22", category: "Sign Board", image: "/images/hw1.jpeg", caption: "" },
   { id: "p5", category: "Light Boards", image: "/images/20201113_185618aa.jpg", caption: "LED-lit shop front signage" },
   { id: "p6", category: "Banners", image: "/images/IMG_20230904_155743.jpg", caption: "Banners" },
   { id: "p8", category: "Sign Board", image: "/images/20181114_160406.jpg", caption: "Sign Board" },
@@ -284,8 +284,10 @@ export const portfolioItems: PortfolioItem[] = [
   { id: "p19", category: "Sign Board", image: "/images/c308f241-73be-41fb-b144-c877717cec6e.jpeg", caption: "Road side sign boards" },
   { id: "p19", category: "Name Boards", image: "/images/e7aff874-554e-4656-9b11-a738cde09bc4.jpeg", caption: "" },
   { id: "p19", category: "Awards", image: "/images/IMG_5554.jpeg", caption: "" },
+  { id: "p7", category: "Number Plates", image: "/images/05ea9e21-7a51-48fd-95aa-d71094302ae8.jpeg", caption: "Number Plates" },
   { id: "p19", category: "Name Board", image: "/images/IMG_20230302_124653.jpg", caption: "" },
   { id: "p19", category: "Banner", image: "/images/IMG_20230303_135634.jpg", caption: "" },
+  { id: "p36", category: "Name Board", image: "/images/bp3.jpeg", caption: "" },
   { id: "p19", category: "Sign Boards", image: "/images/IMG_20230420_173920.jpg", caption: "" },
   { id: "p19", category: "Name Boards", image: "/images/IMG_20231011_145000.jpg", caption: "" },
   { id: "p19", category: "Banner", image: "/images/IMG_20231219_160955.jpg", caption: "" },
@@ -305,7 +307,6 @@ export const portfolioItems: PortfolioItem[] = [
   { id: "p32", category: "Board", image: "/images/dk2.jpeg", caption: "" },
   { id: "p33", category: "Light Board", image: "/images/lb.jpeg", caption: "" },
   { id: "p34", category: "Banner", image: "/images/np.jpeg", caption: "" },
-  { id: "p36", category: "Name Board", image: "/images/bp2.jpeg", caption: "" },
   { id: "p37", category: "Rollups", image: "/images/ru.jpeg", caption: "" },
 ];
 
